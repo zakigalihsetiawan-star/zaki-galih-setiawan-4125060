@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/submit" method="POST">
+  <label for="nama">Nama</label>
+  <input type="text" id="nama" name="nama" required>
+
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="pesan">Pesan</label>
+  <textarea id="pesan" name="pesan" rows="4"></textarea>
+
+  <button type="submit">Kirim</button>
+</form>
+<table>
+    <p></p> 
+  <thead>
+    <tr><th colspan="3">Data Mahasiswa</th></tr>
+    <tr>
+      <th>No</th><th>Nama</th><th>Nilai</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td><td>Andi</td>
+      <td rowspan="2">A</td>
+    </tr>
+    <tr>
+      <td>2</td><td>Budi</td>
+    </tr>
+  </tbody>
+</table>
+<p></p>
+<video width="480" controls>
+  <source src="video-perkenalan.mp4" type="video/mp4">
+  Browser Anda tidak mendukung tag video.
+</video>
+
+<audio controls>
+  <source src="lagu.mp3" type="audio/mpeg">
+  Browser Anda tidak mendukung tag audio.
+</audio>
+</body>
+</html>
