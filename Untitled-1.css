@@ -1,0 +1,125 @@
+
+/* 1. Box sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* 2. Tampilan halaman */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333333;
+    background-color: #f0f4f8;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* 3. Header */
+header {
+    background-color: #1565c0;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+header p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+/* 4. Navigasi */
+nav {
+    background-color: #0d47a1;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffeb3b;
+}
+
+/* 5. Bagian utama */
+main {
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 0 20px;
+}
+
+/* 6. Kartu section */
+section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border: 1px solid #d6e0eb;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #1565c0;
+    font-size: 24px;
+    border-bottom: 2px solid #1565c0;
+    padding-bottom: 8px;
+}
+
+/* 7. Foto profil */
+#tentang img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 4px solid #1565c0;
+    border-radius: 10px;
+    margin: 15px auto;
+}
+
+/* 8. Daftar keahlian */
+#keahlian li {
+    background-color: #e3f2fd;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* 9. Fakta menarik */
+aside {
+    max-width: 860px;
+    margin: 25px auto;
+    padding: 20px;
+    background-color: #fff8e1;
+    border: 1px solid #ffca28;
+    border-radius: 10px;
+}
+
+aside h2 {
+    color: #8d5b00;
+}
+
+/* 10. Footer dan kontak */
+footer {
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #81d4fa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
